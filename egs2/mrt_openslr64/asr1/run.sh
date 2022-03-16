@@ -7,9 +7,9 @@ set -o pipefail
 
 lid=false # whether to use language id as additional label
 
-train_set="bur_train"
-train_dev="bur_dev"
-test_set="bur_test"
+train_set="mrt_train"
+train_dev="mrt_dev"
+test_set="mrt_test"
 
 asr_config=conf/train_asr_hubert_transformer_adam_specaug.yaml
 inference_config=conf/decode_asr.yaml
