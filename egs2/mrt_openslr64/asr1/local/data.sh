@@ -38,7 +38,7 @@ workspace=$PWD
 if [ ${stage} -le 0 ] && [ ${stop_stage} -ge 0 ]; then
     log "sub-stage 0: Download Data to downloads"
     cd ${MARATHI}
-    wget https://us.openslr.org/resources/80/mr_in_female.zip
+    wget https://us.openslr.org/resources/64/mr_in_female.zip
     unzip -o mr_in_female.zip
     rm -f mr_in_female.zip
 
