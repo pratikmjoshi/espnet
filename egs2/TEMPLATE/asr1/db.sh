@@ -128,6 +128,7 @@ PRIMEWORDS_CHINESE=downloads
 SEAME=
 BENGALI=downloads
 IWSLT14=
+MARATHI=downloads
 
 # For only CMU TIR environment
 if [[ "$(hostname)" == tir* ]]; then
