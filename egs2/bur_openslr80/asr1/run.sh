@@ -38,4 +38,5 @@ ngpu=1
     --lm_train_text "data/${train_set}/text" \
     --lm_dev_text "data/${train_dev}/text" \
     --lm_test_text "data/${test_set}/text" \
+    --feats_normalize uttmvn \
     --local_score_opts "--score_lang_id ${lid}" "$@"
